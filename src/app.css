@@ -1,0 +1,20 @@
+.card-exit-active {
+  animation: anim 500ms forwards;
+}
+.card-enter-active {
+  animation: anim 500ms forwards;
+}
+@keyframes anim {
+  0% {
+    opacity: 0.7;
+    transform: translateX(0);
+  }
+  30% {
+    opacity: 0.7;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+}

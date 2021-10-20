@@ -1,0 +1,25 @@
+.header {
+  background-color: #a8dadc;
+  height: 40px;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  border: 1px solid #457b9d;
+  border-radius: 3px;
+}

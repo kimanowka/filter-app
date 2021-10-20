@@ -1,0 +1,51 @@
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: #457b9d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 44px;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.adress {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.options {
+  display: flex;
+  margin-top: 40px;
+}
+
+.option_active {
+  border: 1px solid #1d3557;
+  border-radius: 3px;
+  margin-right: 3px;
+  padding: 5px;
+  background: green;
+}
+
+.option_non {
+  border: 1px solid #1d3557;
+  border-radius: 3px;
+  margin-right: 3px;
+  padding: 5px;
+  background: rgb(85, 3, 3);
+}
+
+.price {
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
